@@ -1,0 +1,80 @@
+{
+    "siteName": "My Site",
+    "contactEmail": "xyz@gmail.com",
+    "phone": "432-657-2353",
+    "address": "Toronto",
+    "mainContent": "<p>something<p>",
+    "mainNav": [
+        {
+            "url": "/",
+            "text": "Home",
+            "linkID": "",
+            "linkClass": "",
+            "newTab": false
+        },
+        {
+            "url": "/about.html",
+            "text": "About",
+            "linkID": "",
+            "linkClass": "",
+            "newTab": false
+        },
+        {
+            "url": "/blog.html",
+            "text": "Blog",
+            "linkID": "",
+            "linkClass": "",
+            "newTab": false
+        },
+        {
+            "url": "https://www.shopify.com",
+            "text": "Store",
+            "linkID": "",
+            "linkClass": "",
+            "newTab": true
+        },
+        {
+            "url": "/contact.html",
+            "text": "Contact",
+            "linkID": "",
+            "linkClass": "",
+            "newTab": false
+        }
+    ],
+
+    "card1": [
+        {
+            "text": "List item 1"
+        },
+        {
+            "text": "List item 2"
+        },
+        {
+            "text": "List item 3"
+        },
+        {
+            "text": "List item 4"
+        },
+        {
+            "text": "List item 5"
+        }
+    ],
+
+    "card2": [
+        {
+            "text": "List item 1.1"
+        },
+        {
+            "text": "List item 1.2"
+        },
+        {
+            "text": "List item 1.3"
+        },
+        {
+            "text": "List item 1.4"
+        },
+        {
+            "text": "List item 1.5"
+        }
+    ]
+}

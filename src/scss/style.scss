@@ -1,0 +1,47 @@
+// custom variables
+$body-bg: #F7F8FC;
+$primary: #0275d8;
+$spacing: 8px;
+
+// custom styles
+body {
+    background: $body-bg;
+    }
+
+header {
+    padding: $spacing;
+}
+
+.card-body a {
+    position: relative;
+    float: right;
+    font-size: 14px;
+    top: 8px;
+}
+
+header img {
+    object-fit: cover;
+}
+
+.card:hover {
+    color: $primary;
+    border-color: $primary;
+}
+
+.custom-hover {
+    color: #F7F8FC;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-hover:hover {
+  background-color: $body-bg; /* Change the color to your desired hover effect */
+  color: #000000;
+}
+
+svg:hover {
+  fill: black;
+}
+
+rect:hover {
+  fill: black;
+}

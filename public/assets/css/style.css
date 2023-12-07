@@ -1,0 +1,43 @@
+body {
+  background: #F7F8FC;
+}
+
+header {
+  padding: 8px;
+}
+
+.card-body a {
+  position: relative;
+  float: right;
+  font-size: 14px;
+  top: 8px;
+}
+
+header img {
+  object-fit: cover;
+}
+
+.card:hover {
+  color: #0275d8;
+  border-color: #0275d8;
+}
+
+.custom-hover {
+  color: #F7F8FC;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-hover:hover {
+  background-color: #F7F8FC; /* Change the color to your desired hover effect */
+  color: #000000;
+}
+
+svg:hover {
+  fill: black;
+}
+
+rect:hover {
+  fill: black;
+}
+
+/*# sourceMappingURL=style.css.map */

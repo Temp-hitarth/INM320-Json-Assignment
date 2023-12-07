@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>INM320 Bootstrap</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<!--Sidbar 2 column-->
+<body class="d-flex">
+    <div class="container-fluid p-0">
+        <div class="row">
+            <!-- sidbar -->
+            <div class="col-12 col-sm-2 bg-dark">
+                <!-- sidebar navigation menu -->
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-5">
+                        <!-- navigation with img and margin, color -->
+                        <a class="nav-link active text-white-50" aria-current="page" href="#"><svg class=" m-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <circle cx="16" cy="16" r="16" fill="#3751FF"/>
+                            <path d="M11 10C11 9.44772 11.4477 9 12 9H15.9905C18.2127 9 19.9333 9.60955 21.1524 10.8287C22.3841 12.0478 23 13.765 23 15.9803C23 18.2088 22.3841 19.9391 21.1524 21.1713C19.9333 22.3904 18.2127 23 15.9905 23H12C11.4477 23 11 22.5523 11 22V10Z" fill="url(#paint0_linear_584_285)"/>
+                            <defs>
+                              <linearGradient id="paint0_linear_584_285" x1="11" y1="9" x2="23" y2="23" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="white" stop-opacity="0.7"/>
+                                <stop offset="1" stop-color="white"/>
+                              </linearGradient>
+                            </defs>
+                          </svg>Dashboard Kit</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active custom-hover" aria-current="page" href="#">
+                            <i class="fas fa-chart-pie ms-2 pe-2"></i>
+                            Overview</a>
+                        <a class="nav-link active custom-hover" aria-current="page" href="#">
+                            <i class="fas fa-ticket-alt ms-2 pe-2"></i>
+                            Tickets</a>
+                        <a class="nav-link active custom-hover" aria-current="page" href="#">
+                            <i class="fas fa-lightbulb ms-2 pe-2"></i>
+                            Idea</a>
+                        <a class="nav-link active custom-hover" aria-current="page" href="#">
+                            <i class="fas fa-users ms-2 pe-2"></i>
+                            Contacts</a>
+                        <a class="nav-link active custom-hover" aria-current="page" href="#">
+                            <i class="fa fa-user ms-2 pe-2"></i>
+                            Agents
+                        </a>
+                        <a class="nav-link active custom-hover" aria-current="page" href="#">
+                            <i class="fa fa-book ms-2 pe-2"></i>
+                            Articles
+                        </a>
+                        <div class="border-bottom border-white border-opacity-10 mt-5 mb-5">
+                        </div>
+                    </li>
+
+                    <!-- bottom links settings and subscription -->
+                    <li>
+                        <a class="nav-link active custom-hover" aria-current="page" href="#">
+                            <i class="fas fa-cog ms-2 pe-2" style="font-size:16px"></i> 
+                            Settings
+                        </a>
+                        <a class="nav-link active custom-hover" aria-current="page" href="#">
+                            <i class="fa fa-medal ms-2 pe-2" style="font-size:16px"></i>
+                            Subscription
+                        </a>
+                    </li>
+                </ul>     
+            </div>
+            
+            <!--main 10 column-->
+            <main class="container col-10 p-4">
+            <!-- header -->
+                <header class="mb-5 d-flex justify-content-between">
+                    <h3>Overview</h3>
+
+                    <div class="col-lg-3 col-12 p-0 d-flex justify-content-between align-items-center">
+                        <!-- search icon -->
+                        <i style="font-size:16px" class="fa">&#xf002;</i>
+                        <i class='fas fa-bell' style='font-size:16px'></i>
+                        <p class="mb-0">|</p>
+                        <p class="mb-0">Hitarth Bardoliwala</p>
+                        <img src="assets/images/profile pic.png" class="img-thumbnail rounded-circle" width="36px" height="36px" alt="">
+                    </div>
+                </header>
+                <!-- Cards -->
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title fs-6">Unresolved</h5>
+                                <p class="fs-4 fw-bold">60</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title fs-6">Overdue</h5>
+                                <p class="fs-4 fw-bold">16</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title fs-6">Open</h5>
+                                <p class="fs-4 fw-bold">43</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title fs-6 ">On hold</h5>
+                                <p class="fs-4 fw-bold">64</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards end -->
+
+                <!-- graph and stats -->
+                <div class="container mt-5">
+                    <div class="row">
+                        <!-- Image Card - Takes 8 columns on large screens, full width on smaller screens -->
+                        <div class="col-lg-8 col-12 p-0">
+                            <div class="card h-100 rounded-end-0">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <h5 class="card-title">Today's Trend</h5>
+                                    <p class="text-secondary">as of 25 May 2019 09:41 PM</p>
+                                    <div class="d-flex justify-content-end">
+                                        <p class="text-secondary-emphasis me-4"><img class="me-1" src="assets/images/blue divider.png" alt="">Today</p>
+                                        <p class="text-secondary me-4"><img class="me-1" src="assets/images/grey divider.png" alt="">Yesterday</p>
+                                    </div>
+                                    <img src="assets/images/full graph.png" class="p-4 mt-5" alt="image of a graph">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Stacked Cards - Each takes 4 columns vertically on large screens, full width on smaller screens -->
+                        <div class="col-lg-4 col-12 p-0 d-flex flex-column justify-content-between">
+                            <div class="card text-center flex-fill rounded-start-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">Resolved</h5>
+                                    <p class="card-text">449</p>
+                                </div>
+                            </div>
+
+                            <div class="card text-center flex-fill rounded-start-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">Recieved</h5>
+                                    <p class="card-text">426</p>
+                                </div>
+                            </div>
+
+                            <div class="card text-center flex-fill rounded-start-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">Average first response time</h5>
+                                    <p class="card-text">33m</p>
+                                </div>
+                            </div>
+
+                            <div class="card text-center flex-fill rounded-start-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">Average response time</h5>
+                                    <p class="card-text">3h 8m</p>
+                                </div>
+                            </div>
+
+                            <div class="card text-center flex-fill rounded-start-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">Resolution within SLA</h5>
+                                    <p class="card-text">94%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- graph and stats end -->
+
+                <!-- unresolved tickets and tasks -->
+                <div class="container mt-5">
+                    <div class="row">
+                        <!-- Card with List -->
+                        <div class="col-md-6 mb-4 ps-0">
+                            <div class="card h-100">
+                                <div class="card-body d-flex flex-column justify-content-between p-0">
+                                    <div>    
+                                        <h5 class="card-title ps-3 pe-3 pt-3">Unresolved tickets <a href="#" class="position-relative float-end text-decoration-none">View details</a> </h5>
+                                        <p class="card-text text-secondary ps-3">Group: <span class="text-secondary-emphasis">Support</span></p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                    <!-- mouse custom-hover over the list using list-group-item-action -->
+                                        <li class="list-group-item list-group-item-action border-bottom pt-4 pb-4">Waiting on Feature Request <span class="position-relative float-end">4238</span></li>
+                                        <li class="list-group-item list-group-item-action border-bottom pt-4 pb-4">Awaiting Customer Response <span class="position-relative float-end">1005</span></li>
+                                        <li class="list-group-item list-group-item-action border-bottom pt-4 pb-4">Awaiting Developer Fix <span class="position-relative float-end">914</span></li>
+                                        <li class="list-group-item list-group-item-action border-bottom pt-4 pb-4">Pending <span class="position-relative float-end">218</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card with Task Checklist -->
+                        <div class="col-md-6 mb-4 pe-0">
+                            <div class="card h-100">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <h5 class="card-title mb-3">Tasks<a href="#" class="position-relative float-end text-decoration-none">View all</a></h5>
+                                    <p class="card-text text-secondary">Today</p>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item pt-3">
+                                        
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                Click to create a new task
+                                            </button>
+
+
+                                            <!------------------------------- Use of Modal ------------------------------->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Add a new task</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                    <form>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" id="input1" aria-describedby="text" placeholder="Create a task">
+                                                        </div>
+                                                    </form>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item pt-3">
+                                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+                                            <label class="form-check-label stretched-link" for="firstCheckboxStretched">Finish ticket update </label><span class="btn btn-warning position-relative float-end text-uppercase text-white rounded-3">urgent</span>
+                                        </li>
+                                        <li class="list-group-item pt-3">
+                                            <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                                            <label class="form-check-label stretched-link" for="secondCheckboxStretched">Create new ticket example</label><span class="btn btn-success position-relative float-end text-uppercase text-whiterounded-3">new</span>
+                                        </li>
+                                        <li class="list-group-item pt-3">
+                                            <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretched">
+                                            <label class="form-check-label stretched-link" for="thirdCheckboxStretched">Update ticket report</label><span class="btn btn-light position-relative float-end text-uppercase rounded-3">default</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- unresolved tickets and tasks end-->
+                    <div class="row">
+                        <div class="col-md-6 mb-4 ps-0">
+                            <div class="card h-100">
+                                <div class="card-body d-flex flex-column justify-content-between p-0">
+                                    <h5 class="card-title m-3">List fetched through Json</h5>
+                                    <div class="abc">
+                                        <ul>
+                                            <!-- <li><a href="">xyz</a></li>
+                                            <li><a href="">xyz</a></li>
+                                            <li><a href="">xyz</a></li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4 pe-0">
+                            <div class="card h-100">
+                                <div class="card-body d-flex flex-column justify-content-between p-0">
+                                    <h5 class="card-title m-3">List fetched through Json</h5>
+                                    <div class="xyz">
+                                        <ul>
+                                            <!-- <li><a href="">xyz</a></li>
+                                            <li><a href="">xyz</a></li>
+                                            <li><a href="">xyz</a></li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    
+   
+    <script src="/assets/js/main.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
